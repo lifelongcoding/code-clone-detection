@@ -1,2 +1,8 @@
-# Ignore IntelliJ IDEA project files
+# IntelliJ IDEA project files and directories
 .idea/
+# Python compiled bytecode cache directories
+__pycache__/
+# Log files of any type
+*.log
+# Configuration files with .ini extension
+*.ini
