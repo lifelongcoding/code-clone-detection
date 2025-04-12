@@ -6,3 +6,5 @@ __pycache__/
 *.log
 # Configuration files with .ini extension
 *.ini
+# Models
+models/

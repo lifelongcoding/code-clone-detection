@@ -15,7 +15,7 @@ if __name__ == '__main__':
     client = OpenAI(api_key=config['api_key'], base_url=config['base_url'])
 
     csv_file_dir = '../data/raw'
-    csv_output_dir = f'../data/predict_{config['model']}'
+    csv_output_dir = f'../data/predict_{config["model"]}'
 
     for file_name in os.listdir(csv_file_dir):
         if file_name.endswith('.csv'):
